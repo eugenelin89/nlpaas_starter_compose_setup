@@ -1,0 +1,9 @@
+tracker_store:
+  type: sql
+  dialect: "postgresql"
+  url: ${DB_HOST}
+  port: ${DB_PORT}
+  username: ${DB_USER}
+  password: ${DB_PASSWORD}
+  db: ${DB_DATABASE}
+  login_db: ${DB_LOGIN_DB}
